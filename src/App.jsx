@@ -4,8 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  //Императивынй
   const [count, setCount] = useState(0)
 
+  //Декларативный
   return (
     <>
       <div>
@@ -27,6 +29,9 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+      </p>
+      <p>
+        {new Date().getFullYear()}
       </p>
     </>
   )
